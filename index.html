@@ -31,15 +31,10 @@
                 extend: {
                     colors: {
                         "nav-primary": "#F85559",
-                        // "bike-secondary": "red",
+                        "shorttext-primary": "#12121299",
                     },
 
-                    backgroundImage: {
-                        'slide1': "url('./images/banner1.png')",
-                        'slide2': "url('./images/banner2.png')",
-                        'slide3': "url('./images/banner3.png')",
-                        'slide4': "url('./images/banner4.png')",
-                    }
+
                 },
             },
         };
@@ -141,7 +136,7 @@
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                
+
                 <div id="slide3" class="carousel-item relative w-full ">
                     <img src="./images/banner3.png" class="w-full">
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -149,7 +144,7 @@
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                
+
                 <div id="slide4" class="carousel-item relative w-full ">
                     <img src="./images/banner4.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -158,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div
                 class="text-center absolute md:space-y-5 top-24 md:top-60  left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <h1 class="text-xl md:text-6xl text-center font-bold md:font-extrabold max-w-full text-white">Exotic
@@ -176,11 +171,34 @@
             <div class="hidden md:block w-9/12 absolute left-1/2 transform -translate-x-1/2 -bottom-16">
 
                 <div class="bg-white flex justify-center gap-8 p-5 rounded-md shadow-2xl">
-                    <img src="./images/fruit1.png" alt="">
-                    <img src="./images/fruit2.png" alt="">
-                    <img src="./images/fruit3.png" alt="">
-                    <img src="./images/fruit4.png" alt="">
-                    <img src="./images/fruit5.png" alt="">
+
+                    <div class="text-center mt-2">
+                        <img src="./images/fruit1.png" alt="">
+                        <p class="text-shorttext-primary">Strawberry</p>
+                    </div>
+                    <div class="text-center mt-2">
+                        <img src="./images/fruit2.png" alt="">
+                        <p class="text-shorttext-primary">Orange</p>
+
+                    </div>
+                    <div class="text-center mt-2">
+                        <img src="./images/fruit3.png" alt="">
+                        <p class="text-shorttext-primary">Mango</p>
+
+                    </div>
+                    <div class="text-center mt-2">
+                        <img src="./images/fruit4.png" alt="">
+                        <p class="text-shorttext-primary">Strawberry</p>
+
+                    </div>
+                    <div class="text-center mt-2">
+                        <img src="./images/fruit5.png" alt="">
+                        <p class="text-shorttext-primary">Mango</p>
+
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
@@ -188,13 +206,74 @@
 
 
     </header>
-    <main class="max-w-screen-xl mx-auto px-5 md:px-10">
+    <main class="max-w-screen-xl mx-auto px-5 md:px-10 mt-5 md:mt-24">
+
+        <!-- Delays -->
+        <section class="">
+            <div class="flex flex-col md:flex-row gap-10 md:gap-28 text-center md:text-left items-center">
+
+                <div class="space-y-3 flex-1">
+                    <h1 class="text-5xl font-extrabold ">Deal of the day</h1>
+                    <p class="text-sm text-shorttext-primary">Contrary to popular belief, is not simply random text. It
+                        has
+                        roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+
+                <div class="">
+                    <div class="flex flex-row space-x-2 md:space-x-6">
+                        <div class="">
+                            <div class="flex justify-between items-center">
+                                <h1 class="text-5xl font-extrabold mr-2 md:mr-4">29</h1>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z"
+                                        stroke="#121212" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+
+                            <p class=" -ml-5 md:ml-4 mt-1 text-sm text-shorttext-primary">Days</p>
+                        </div>
+                        <div class="">
+                            <div class="flex justify-between items-center">
+                                <h1 class="text-5xl font-extrabold mr-2 md:mr-4">15</h1>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z"
+                                        stroke="#121212" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <p class="-ml-5 md:ml-2 mt-1 text-sm text-shorttext-primary">Hours</p>
+                        </div>
+                        <div class="">
+                            <div class="flex justify-between items-center">
+                                <h1 class="text-5xl font-extrabold mr-2 md:mr-4">25</h1>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z"
+                                        stroke="#121212" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <p class="-ml-5 md:ml-2 mt-1 text-sm text-shorttext-primary">Minutes</p>
+                        </div>
+                        <div class="">
+                            <h1 class="text-5xl font-extrabold">08</h1>
+                            <p class="ml-2 mt-1 text-sm text-shorttext-primary">Seconds</p>
+                        </div>
+
+                    </div>
 
 
+                </div>
+            </div>
 
-
-        </div>
-
+        </section>
 
 
     </main>
