@@ -1,30 +1,56 @@
-<!-- navbar -->
-<div class="flex flex-col md:flex-row justify-between font-medium md:py-5  text-white items-center">
-    <ul class="flex flex-col md:flex-row gap-7">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">All Fruits</a></li>
-    </ul>
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
 
-    <div class="gap-3 flex flex-row">
-        <img src="./images/logo.png" alt="" class="w-10">
-        <h1 class="font-bold text-3xl">Fruit Burst</h1>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
 
-    <div class="form-control relative">
-        <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
-        <button class="absolute right-3 top-3"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                stroke-width="1.5" stroke="black" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-            </svg>
-        </button>
-
-    </div>
+    <!-- Add Tailwind & DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
 
 
-</div>
+    <!-- Add Google Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+    </style>
 
-</header>
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+
+    <!-- tailwind Custom Color -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "nav-primary": "#F85559",
+                        "shorttext-primary": "#12121299",
+                    },
+                    backgroundImage: {
+                        'meet-image': "url('./images/banner1.png')",
+
+                    }
+
+
+                },
+            },
+        };
+    </script>
+
+</head>
+
+<body>
+    
+
+
+
+</body>
+
+</html>
